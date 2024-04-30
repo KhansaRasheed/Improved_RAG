@@ -16,7 +16,8 @@ Ensure you have Python 3.8+ installed, then clone this repository and install th
 ```bash
 git clone https://github.com/your-username/advanced-qa-system.git
 cd advanced-qa-system
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```bash
 
 **# Usage**
 **Setting Up**
