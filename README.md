@@ -31,3 +31,15 @@ Use the provided functionality to generate questions based on your documents:
 ```bash
 questions = generate_questions(text_chunk, num_questions=5, API_KEY='Your-OpenAI-API-Key')
 ```
+Evaluating Answers
+Compare and evaluate two given answers to determine which is more relevant or accurate:
+
+
+```bash
+evaluation = answer_evaluator.invoke({
+    "context": document_content,
+    "question": "What is the inheritance pattern of Duchenne Muscular Dystrophy?",
+    "answer1": "It is an autosomal recessive disorder.",
+    "answer2": "It is inherited through an X-linked recessive pattern."
+})
+```
