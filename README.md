@@ -6,6 +6,8 @@ This repository contains an advanced question-answering system that utilizes Ope
 
 - **Document Retrieval**: Utilizes FAISS (Facebook AI Similarity Search) to efficiently retrieve documents related to user queries.
 - **Question Generation**: Leverages OpenAI's GPT-3.5 model to generate relevant questions from textual content.
+- **Question Retreival**: Retreive the hypothetical questions which are most relevant to the user's input query.
+- **Answer Generation**: Retreived the relevant context to each question, check if any chunk appear more than once and dicsard repeated chunks. Generate the answer using the relevant context of all hypothetical questions.
 - **Context and Answer Evaluation**: This code will enable you to analyse that your retreived chunk is relavant to the user question or not. It also compares multiple answers to determine which is most relevant or correct using a structured grading system.
 - **Document Formatting**: Outputs analysis and results into well-structured `.docx` files for easy dissemination and review.
 
