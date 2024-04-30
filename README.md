@@ -17,9 +17,9 @@ Ensure you have Python 3.8+ installed, then clone this repository and install th
 git clone https://github.com/your-username/advanced-qa-system.git
 cd advanced-qa-system
 pip install -r requirements.txt
-```bash
+```
 
-**# Usage**
+# Usage
 **Setting Up**
 First, set your API keys for OpenAI and any other services in your environment variables or pass them directly into the script.
 
