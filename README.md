@@ -24,4 +24,10 @@ pip install -r requirements.txt
 First, set your API keys for OpenAI and any other services in your environment variables or pass them directly into the script.
 
 **Running the Scripts**
-Navigate to the project directory and run the Jupyter Notebook or Python scripts:
+Navigate to the project directory and run the Jupyter Notebook or Python scripts.
+
+**Generating Questions**
+Use the provided functionality to generate questions based on your documents:
+
+questions = generate_questions(text_chunk, num_questions=5, API_KEY='Your-OpenAI-API-Key')
+
