@@ -28,6 +28,6 @@ Navigate to the project directory and run the Jupyter Notebook or Python scripts
 
 **Generating Questions**
 Use the provided functionality to generate questions based on your documents:
-
+```bash
 questions = generate_questions(text_chunk, num_questions=5, API_KEY='Your-OpenAI-API-Key')
-
+```
